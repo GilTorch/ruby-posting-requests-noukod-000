@@ -15,6 +15,7 @@
         <%= venue["location"]["address"] %><br>
         Checkins: <%= venue["stats"]["checkinsCount"] %><br>
       </li>
+      <%= session[:token] %>
     <% end %>
     </ul>
   <% end %>
